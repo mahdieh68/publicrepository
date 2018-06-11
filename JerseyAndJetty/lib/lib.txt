@@ -1,0 +1,20 @@
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-container-jetty-http-2.27.jar -DgroupId=org.glassfish.jersey.containers -DartifactId=jersey-container-jetty-http -Dversion=2.27  -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-container-servlet-core-2.27.jar -DgroupId=org.glassfish.jersey.containers -DartifactId=jersey-container-servlet-core -Dversion=2.27  -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-container-servlet-2.27.jar -DgroupId=org.glassfish.jersey.containers -DartifactId=jersey-container-servlet -Dversion=2.27  -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-common-2.27.jar -DgroupId=org.glassfish.jersey.core -DartifactId=jersey-common -Dversion=2.27  -Dpackaging=jar
+
+
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-client-2.27.jar -DgroupId=org.glassfish.jersey.core -DartifactId=jersey-client -Dversion=2.27  -Dpackaging=jar
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\jersey-server-2.27.jar -DgroupId=org.glassfish.jersey.core -DartifactId=jersey-server -Dversion=2.27  -Dpackaging=jar
+
+
+mvn install:install-file -Dfile=E:\Private\JerseyAndJetty\lib\javax.ws.rs-api-2.1.jar -DgroupId=javax.ws.rs -DartifactId=javax.ws.rs-api -Dversion=2.1  -Dpackaging=jar
